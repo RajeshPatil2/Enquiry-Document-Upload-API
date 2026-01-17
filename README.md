@@ -5,7 +5,6 @@
 
 ==================================================
 **PROJECT OVERVIEW**
-==================================================
 **This project is a Spring Boot REST API used to
 register customer enquiries along with document
 uploads like Profile Photo, Aadhaar Card and PAN Card.**
@@ -16,7 +15,7 @@ Applications.**
 
 ==================================================
 **WHAT PROBLEM THIS PROJECT SOLVES**
-==================================================
+
 **• Accepts enquiry details in JSON format**
 **• Uploads multiple documents in a single request**
 **• Stores documents securely in database**
@@ -24,7 +23,7 @@ Applications.**
 
 ==================================================
 **REAL WORLD USE CASE**
-==================================================
+
 **• Bank Loan Enquiry**
 **• Insurance Customer Registration**
 **• Admission / Verification Systems**
@@ -32,7 +31,7 @@ Applications.**
 
 ==================================================
 **TECHNOLOGIES USED**
-==================================================
+
 **• Java**
 **• Spring Boot**
 **• Spring Web (REST API)**
@@ -44,7 +43,6 @@ Applications.**
 
 ==================================================
 **KEY FEATURES**
-==================================================
 **• Multipart request handling**
 **• JSON + File upload in single API**
 **• @Lob used for large document storage**
@@ -53,7 +51,7 @@ Applications.**
 
 ==================================================
 **ARCHITECTURE (LAYERED DESIGN)**
-==================================================
+
 **Controller Layer**
 → Handles REST APIs and multipart requests
 
@@ -66,23 +64,9 @@ Applications.**
 **Entity Layer**
 → EnquiryDetails entity with document fields
 
-==================================================
-**ENTITY DETAILS**
-==================================================
-**EnquiryDetails**
-• enquiryId  
-• fullName  
-• address  
-• email  
-• age  
-• panNumber  
-• profileImage (byte[])  
-• aadharCard (byte[])  
-• panCard (byte[])  
 
 ==================================================
 **API ENDPOINTS**
-==================================================
 **POST /enquiry**
 → Registers enquiry with documents
 
@@ -103,23 +87,6 @@ Applications.**
 
 **ObjectMapper**
 → Converts JSON string to Java object
-
-==================================================
-**WHY THIS PROJECT IS INTERVIEW READY**
-==================================================
-**• Real-time business scenario**
-**• File upload handling**
-**• Strong backend fundamentals**
-**• Clean code structure**
-**• Frequently asked in interviews**
-
-==================================================
-**WHO CAN USE THIS PROJECT**
-==================================================
-**• Freshers**
-**• Java Developers**
-**• Spring Boot Learners**
-**• Microservices Practice**
 
 ==================================================
 **AUTHOR**
