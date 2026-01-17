@@ -1,9 +1,9 @@
 
 **PROJECT NAME**
-==================================================
+----------------------------------
 **Enquiry-Document-Upload-API**
 
-==================================================
+-----------------------------------
 **PROJECT OVERVIEW**
 **This project is a Spring Boot REST API used to
 register customer enquiries along with document
@@ -13,7 +13,7 @@ uploads like Profile Photo, Aadhaar Card and PAN Card.**
 used in Banking, Finance, Insurance and Service
 Applications.**
 
-==================================================
+-----------------------------------
 **WHAT PROBLEM THIS PROJECT SOLVES**
 
 **• Accepts enquiry details in JSON format**
@@ -21,7 +21,7 @@ Applications.**
 **• Stores documents securely in database**
 **• Fetches enquiry details using enquiry ID**
 
-==================================================
+-----------------------------------
 **REAL WORLD USE CASE**
 
 **• Bank Loan Enquiry**
@@ -29,7 +29,7 @@ Applications.**
 **• Admission / Verification Systems**
 **• KYC Document Upload Process**
 
-==================================================
+-----------------------------------
 **TECHNOLOGIES USED**
 
 **• Java**
@@ -41,7 +41,7 @@ Applications.**
 **• Multipart File Upload**
 **• Jackson ObjectMapper**
 
-==================================================
+-----------------------------------
 **KEY FEATURES**
 **• Multipart request handling**
 **• JSON + File upload in single API**
@@ -49,7 +49,7 @@ Applications.**
 **• Clean Controller – Service – Repository architecture**
 **• Easy to extend for microservices**
 
-==================================================
+-----------------------------------
 **ARCHITECTURE (LAYERED DESIGN)**
 
 **Controller Layer**
@@ -65,7 +65,7 @@ Applications.**
 → EnquiryDetails entity with document fields
 
 
-==================================================
+-----------------------------------
 **API ENDPOINTS**
 **POST /enquiry**
 → Registers enquiry with documents
@@ -73,9 +73,9 @@ Applications.**
 **GET /enquiry?enquiryId={id}**
 → Fetch enquiry details by ID
 
-==================================================
+-----------------------------------
 **IMPORTANT ANNOTATIONS USED**
-==================================================
+-----------------------------------
 **@RestController**
 → Defines REST API
 
@@ -88,9 +88,9 @@ Applications.**
 **ObjectMapper**
 → Converts JSON string to Java object
 
-==================================================
+-----------------------------------
 **AUTHOR**
-==================================================
+-----------------------------------
 **Rajesh Patil**
 **Java | Spring Boot | REST APIs | Microservices**
-==================================================
+======================================
